@@ -7,12 +7,11 @@ import lombok.Setter;
 
 @Setter
 @Getter
-@NoArgsConstructor
 @Builder
 public class PtoDa {
-    private Integer associationid;
-    private Integer patientid;
-    private Integer deviceid;
-    private String associationtime;
-    private String disassociationtime;
+    private Integer associationId;
+    private Integer patientId;
+    private Integer deviceId;
+    private String associationTime;
+    private String disassociationTime;
 }

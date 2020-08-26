@@ -9,7 +9,6 @@ import java.util.Date;
 
 @Setter
 @Getter
-@NoArgsConstructor
 @Builder
 public class Location {
     private Integer locationId;

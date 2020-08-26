@@ -7,7 +7,6 @@ import lombok.Setter;
 
 @Setter
 @Getter
-@NoArgsConstructor
 @Builder
 public class Patient {
     private Integer patientId;

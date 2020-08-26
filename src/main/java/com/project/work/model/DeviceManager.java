@@ -9,10 +9,9 @@ import java.util.Date;
 
 @Setter
 @Getter
-@NoArgsConstructor
 @Builder
 public class DeviceManager {
-    private Integer managerid;
+    private Integer managerId;
     private String name;
     private String description;
     private String ipaddress;
