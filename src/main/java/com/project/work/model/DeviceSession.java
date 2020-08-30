@@ -11,9 +11,9 @@ import java.util.Date;
 @Getter
 @Builder
 public class DeviceSession {
-    private Integer sessionid;
+    private Integer sessionId;
     private Integer driverId;
-    private Integer managerid;
+    private Integer managerId;
     private String status;
     private String message;
     private Date last_updated_time;
