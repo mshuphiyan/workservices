@@ -2,15 +2,12 @@ package com.project.work.device;
 
 import com.project.work.entities.AbstractBaseEntity;
 import lombok.Builder;
-import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
-@Data
-@NoArgsConstructor
 @Builder
 @Entity
 @Table(name = "device")
