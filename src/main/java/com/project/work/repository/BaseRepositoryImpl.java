@@ -17,7 +17,7 @@ implements AbstractBaseService<T, ID> {
     private BaseRepository<T, ID> baseRepository;
 
     @Autowired
-    public BaseRepositoryImpl(BaseRepository<T, ID> baseRepository) {
+    public BaseRepositoryImpl(BaseRepository baseRepository) {
         this.baseRepository = baseRepository;
     }
 
